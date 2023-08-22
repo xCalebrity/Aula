@@ -1,0 +1,26 @@
+const nome = prompt("Qual o seu nome?")
+const anoNascimento = prompt("Qual o ano do seu nascimento?")
+const anoAtual = prompt("Qual o ano atual?")
+const idade = Number(anoAtual) - Number(anoNascimento)
+const isMaiorIdade = idade >= 18
+const idade2050 = 2050 - Number(anoNascimento)
+
+alert(`Seu nome é ${nome}`)
+alert(`Você nasceu em ${anoNascimento}`)
+alert(`O ano atual é ${anoAtual}`)
+alert(`Sua idade atual é ${idade}`)
+alert(`Você é maior de idade? ${isMaiorIdade}`)
+alert(`Em 2050 você terá ${idade2050} anos`)
+
+console.log(`Seu nome é ${nome}`)
+console.log(`Você nasceu em ${anoNascimento}`)
+console.log(`O ano atual é ${anoAtual}`)
+console.log(`Sua idade atual é ${idade}`)
+console.log(`Você é maior de idade? ${isMaiorIdade}`)
+console.log(`Em 2050 você terá ${idade2050} anos`)
+
+document.write(`*Seu nome é ${nome}`)
+document.write(`*Você nasceu em ${anoNascimento}`)
+document.write(`*O ano atual é ${anoAtual}`)
+document.write(`*Você é maior de idade? ${isMaiorIdade}`)
+document.write(`*Em 2050 você terá ${idade2050} anos`)
